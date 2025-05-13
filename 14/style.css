@@ -1,0 +1,11 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* border-radius: 5px; */
+  background-color: rgb(155, 234, 245);
+  border-style: dashed;
+  border-color: #1100ff;
+  text-align: center;
+
+
+}
