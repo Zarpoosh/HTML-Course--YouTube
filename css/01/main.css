@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    font-size: 100px;
+}
+p{
+    color: rgb(12, 0, 180);
+    background-color: antiquewhite;
+    font-size: 20px;    
+    border-left:10px double blue;
+    padding: 50px;
+    /* border-radius: 50px; */
+   
+}
