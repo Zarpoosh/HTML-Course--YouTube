@@ -1,0 +1,19 @@
+body {
+  background-image: url("./image/img2.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+
+}
+
+.back1 {
+  background-color: rgb(215, 173, 255);
+  padding: 20px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right, #6a11cb 30%, #2575fc 70%);
+}
+
+
+
+
