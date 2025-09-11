@@ -1,0 +1,71 @@
+/* ----- text-align ----- */
+.align-left {
+  text-align: left;
+  border: 1px solid #ccc;
+}
+.align-center {
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.align-right {
+  text-align: right;
+  border: 1px solid #ccc;
+}
+.align-justify {
+  text-align: justify;
+  border: 2px solid #ccc;
+  padding: 10px;
+} 
+/* ----- text-align-last ----- */
+.align-last {
+  text-align: justify;
+  text-align-last: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+} 
+/* ----- vertical-align ----- */
+.vertical-demo img {
+  vertical-align: middle;   /* ----top/bottom-- */
+}
+
+
+
+/* ----- direction + unicode-bidi ----- */
+.rtl-text {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  border: 1px solid #ccc;
+} 
+
+/* ----- text-decoration ----- */
+.underline {
+  text-decoration-line: underline;
+}
+.overline {
+  text-decoration-line: overline;
+}
+.line-through {
+  text-decoration-line: line-through;
+}
+.dotted {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.dashed {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+.double {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+.wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+.custom {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
