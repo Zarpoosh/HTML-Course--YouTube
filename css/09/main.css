@@ -1,0 +1,78 @@
+/* ------------------------------
+   1. text-transform
+------------------------------ */
+.none {
+  text-transform: none;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* ------------------------------
+   2. text-indent
+------------------------------ */
+.indent {
+  direction: rtl;
+  text-indent: 50px;
+}
+
+/* ------------------------------
+   3. letter-spacing
+------------------------------ */
+.letter-wide {
+  letter-spacing: 10px;
+}
+.letter-narrow {
+  letter-spacing: -2px;
+}
+
+/* ------------------------------
+   4. line-height
+------------------------------ */
+.line-tight {
+  direction: rtl;
+  line-height: 1;
+}
+.line-loose {
+  direction: rtl;
+  line-height: 3;
+}
+
+/* ------------------------------
+   5. word-spacing
+------------------------------ */
+.word-wide {
+  word-spacing: 30px;
+}
+.word-narrow {
+  word-spacing: -5px;
+}
+
+/* ------------------------------
+   6. white-space
+------------------------------ */
+.nowrap {
+  white-space: nowrap;
+}
+.pre {
+  white-space: pre;
+}
+
+/* ------------------------------
+   7. text-shadow
+------------------------------ */
+.shadow-simple {
+  text-shadow: 2px 2px red;
+}
+.shadow-blur {
+  text-shadow: 2px 2px 5px blue;
+}
+.shadow-glow {
+  text-shadow: 0 0 10px gold;
+}
